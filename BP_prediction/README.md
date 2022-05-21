@@ -117,7 +117,7 @@ python Banchpoint_search_in_chromosome.py chr1
 # Future plans
 Thus, we got a model that can determine the positions of branch points with good accuracy, however, to further improve it, new features can be added. Next, we want to implement an annotator similar to BBP and a branchpointer that works with vcf files and predicts the pathogenicity of mutations, and compare the results with the second part of our project.
 
-# References
+# References 
 [1] Mercer, T. R., Clark, M. B., Andersen, S. B., Brunck, M. E., Haerty, W., Crawford, J., Taft, R. J., Nielsen, L. K., Dinger, M. E., & Mattick, J. S. (2015). Genome-wide discovery of human splicing branchpoints. Genome research, 25(2), 290–303. https://doi.org/10.1101/gr.182899.114
 
 [2] Signal, B., Gloss, B. S., Dinger, M. E., & Mercer, T. R. (2018). Machine learning annotation of human branchpoints. Bioinformatics (Oxford, England), 34(6), 920–927. https://doi.org/10.1093/bioinformatics/btx688 
