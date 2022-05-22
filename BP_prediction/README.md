@@ -113,7 +113,7 @@ or run the same python script
 ```
 python Banchpoint_search_in_chromosome.py chr1
 ```
-
+Results of detecting branchpoints in all chrromosomes can be dound [here](https://drive.google.com/drive/u/1/folders/1_i4X-JG8_BPvt-cC5FvP6oNdhgCIrxrF) in folder `predicted BPs for all chromosomes`. 
 # Future plans
 Thus, we got a model that can determine the positions of branch points with good accuracy, however, to further improve it, new features can be added. Next, we want to implement an annotator similar to BBP and a branchpointer that works with vcf files and predicts the pathogenicity of mutations, and compare the results with the second part of our project.
 
