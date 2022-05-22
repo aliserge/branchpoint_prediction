@@ -100,7 +100,7 @@ The goal of this notebook was to learn how to predict branch points in introns a
 The histogram above demonstrates distribution of distance between high confidence branchpoint and pedicted one. As we can see, there are many coincidences , while the spread is not very large. So, the model often predict right positions. 
 
 ## 3. Branchpoint search for chromosome 
-This notebook is devoted to predict branchpoints in all introns in all chromosomes. The results are presented in folder `predicted BPs for all chromosomes`.
+This notebook is devoted to predict branchpoints in all introns in all chromosomes. The results are presented [here](https://drive.google.com/drive/u/1/folders/1_i4X-JG8_BPvt-cC5FvP6oNdhgCIrxrF) in folder `predicted BPs for all chromosomes`.
 
 Note: to find branchpoints in all introns in particular chromosome (for example, chromosome 1) you can run notebook with command 
 ```
@@ -113,7 +113,7 @@ or run the same python script
 ```
 python Banchpoint_search_in_chromosome.py chr1
 ```
-Results of detecting branchpoints in all chrromosomes can be dound [here](https://drive.google.com/drive/u/1/folders/1_i4X-JG8_BPvt-cC5FvP6oNdhgCIrxrF) in folder `predicted BPs for all chromosomes`. 
+
 # Future plans
 Thus, we got a model that can determine the positions of branch points with good accuracy, however, to further improve it, new features can be added. Next, we want to implement an annotator similar to BBP and a branchpointer that works with vcf files and predicts the pathogenicity of mutations, and compare the results with the second part of our project.
 
