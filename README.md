@@ -4,6 +4,10 @@ Authors:
 * Sergeeva Alisa
 * Veretenenko Irina
 
+Supervisors: 
+* Yuri Barbitov (Bioinformatics institute) 
+* Mikhail Skoblov (Research Centre for Medical Genetics)
+
 # Introduction
 A key step in the molecular diagnosis of hereditary diseases is the interpretation of genetic variants found during genome or exome sequencing. At the moment, however, interpretation is quite a challenge, and the cumulative efficiency of molecular diagnostics ranges from 30 to 50%. This is partly due to the lack of good methods for annotating different classes of genetic variants that do not involve a violation of the amino acid sequence of a protein.
 
@@ -29,3 +33,11 @@ In the course of work, the project was divided into two main parts:
 
 Description and current results of work on these subtasks are presented in the corresponding folders.
 
+# Conclusion
+Thus, by now we understood two main things: 
+* Branchpointer and BBP seems to be very different, so we need a new predictor to evaluate predictors  
+* We can find branchpoints in genome with good quality
+
+So, next we are going to take the following steps: 
+* Development of an annotator similar to BBP and Branchpointer, which will predict the pathogenicity of a variant in the branchpoint
+* Comparing the predictions of our model with BBP and Branchpointer and creating a general tool that most reliably predicts the effects of genetic variants. We hope that as a result we will be able to create the most accurate branchpoint annotator that incorporates the best of 3 models. 
