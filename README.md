@@ -33,7 +33,7 @@ In the course of work, the project was divided into two main parts:
 
 Description and current results of work on these subtasks are presented in the corresponding folders.
 
-# Summary and future plans
+# Conclusion and future plans
 Thus, by now we understood two main things: 
 * Branchpointer and BBP seems to be very different, so we need a new predictor to evaluate predictors  
 * We can find branchpoints in genome with good quality
