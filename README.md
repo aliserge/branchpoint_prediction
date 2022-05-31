@@ -34,8 +34,16 @@ In the course of work, the project was divided into two main parts:
 Description and current results of work on these subtasks are presented in the corresponding folders.
 
 # Conclusion and future plans
+
+* gnomAD database is hypervariable, so we investigated the separate mutation impact on the branchpoint prediction by BPP and Branchpointer
+* ClinVar database is not so variable, but we also did the same in aim of research consistancy
+* Both predictors have shown the difference between ClinVar and gnomAD (p-value < 0.05, Wilcox test)
+* We have noticed that ClinVar mutations more often show the reference branchpoint score reducing via both predictors
+* However, these two predictors seems to be very different and we don’t have enough evidence to choose the best predictor
+* So we need a new predictor to collect this evidence
+
 Thus, by now we understood two main things: 
-* Branchpointer and BBP seems to be very different, so we need a new predictor to evaluate predictors  
+* Branchpointer and BBP seems to be very different but useful predictors, so we need a new predictor to evaluate them  
 * We can find branchpoints in genome with good quality
 
 So, next we are going to take the following steps: 
