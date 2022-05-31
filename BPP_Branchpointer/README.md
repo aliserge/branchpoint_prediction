@@ -99,6 +99,11 @@ branchpointer library according to manual and saves final data
 * Collect data from branchpointer results to summary table
 
 
+## References
+[1] Leman R, Tubeuf H, Raad S, Tournier I, Derambure C, Lanos R, Gaildrat P, Castelain G, Hauchard J, Killian A, Baert-Desurmont S, Legros A, Goardon N, Quesnelle C, Ricou A, Castera L, Vaur D, Le Gac G, Ka C, Fichou Y, Bonnet-Dorion F, Sevenet N, Guillaud-Bataille M, Boutry-Kryza N, Schultz I, Caux-Moncoutier V, Rossing M, Walker LC, Spurdle AB, Houdayer C, Martins A, Krieger S. Assessment of branch point prediction tools to predict physiological branch points and their alteration by variants. BMC Genomics. 2020 Jan 28;21(1):86. doi: 10.1186/s12864-020-6484-5. PMID: 31992191; PMCID: PMC6988378.
 
+[2] Zhang Q, Fan X, Wang Y, Sun MA, Shao J, Guo D. BPP: a sequence-based algorithm for branch point prediction. Bioinformatics. 2017 Oct 15;33(20):3166-3172. doi: 10.1093/bioinformatics/btx401. PMID: 28633445.
+
+[3] Signal B, Gloss B, Dinger M, Mercer T (2016). “Machine-learning annotation of human splicing branchpoints.” bioRxiv. doi: 10.1101/094003, http://biorxiv.org/content/early/2016/12/14/094003.
 
 
